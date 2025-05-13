@@ -7,17 +7,33 @@ A seguir estão 15 sugestões de aplicativos em Flutter, cada um com um **tema**
 
 ---
 
-## 14. App de Marketplace de Itens Usados
+## 14. App de Cupons da Dunkin' Donuts
+Tema: Aplicativo de cupons promocionais para produtos da Dunkin' Donuts
+Conceitos:
 
-**Tema**: Compra e venda de produtos usados, estilo “classificados”  
-**Conceitos**:
-- Consumo de API / integração com back-end (para cadastrar ou ler produtos)
-- Upload de imagens (usar plugin de câmera ou galeria)
+Consumo de API / integração com back-end (para listar cupons ativos)
 
-**Sugestão de Funcionalidades**:
-- Lista de produtos (nome, descrição, preço, foto)
-- Tela de detalhes com botão de contato (WhatsApp ou e-mail)
-- Filtro por categoria (eletrônicos, livros etc.)
+Geração e validação de cupons
+
+Uso de plugins de localização ou autenticação (opcional)
+
+Sugestão de Funcionalidades:
+
+Lista de Cupons (nome do produto, descrição da oferta, validade, imagem)
+
+Tela de Detalhes com botão para "Ativar Cupom" (gera QR Code ou código para uso)
+
+Filtro por categoria (bebidas, donuts, combos, etc.)
+
+Autenticação simples (opcional – login com Google, Facebook ou e-mail)
+
+Histórico de cupons usados (opcional)
+
+Extras Opcionais:
+
+Integração com Google Maps para mostrar lojas próximas
+
+Notificações push sobre cupons novos
 
 ---
 
